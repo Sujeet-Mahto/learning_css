@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+{% endblock %}
+
+{% block content %}
+<main>
+  <section id="product-overview">
+    <h1>Get the freedom you deservee.</h1>
+  </section>
+  <section class="main-section__heading">
+    <h1 class="section-title">Choose Your Plan</h1>
+    <p>Make sure you get the most for your money!</p>
+  </section>
+  <div class="plans">
+    <article class="plan">
+      <h1>FREE</h1>
+      <h2>$0/month</h2>
+      <h3>For hobby projects or small teams.</h3>
+      <ul>
+        <li>1 Workspace</li>
+        <li>Unlimited Traffic</li>
+        <li>10GB Storage</li>
+        <li>Basic Support</li>
+      </ul>
+      <div class="choose-plan-btn">
+        <button>CHOOSE PLAN</button>
+      </div>
+    </article>
+    <article class="plan recommended-plan">
+      <h1>RECOMMENDED</h1>
+      <h1>PLUS</h1>
+      <h2>$29/month</h2>
+      <h3>For ambitious projects.</h3>
+      <ul>
+        <li>5 Workspaces</li>
+        <li>Unlimited Traffic</li>
+        <li>100GB Storage</li>
+        <li>Plus Support</li>
+      </ul>
+      <div class="choose-plan-btn">
+        <button>CHOOSE PLAN</button>
+      </div>
+    </article>
+    <article class="plan">
+      <h1>PREMIUM</h1>
+      <h2>$99/month</h2>
+      <h3>Your enterprise solution.</h3>
+      <ul>
+        <li>10 Workspaces</li>
+        <li>Unlimited Traffic</li>
+        <li>Unlimited Storage</li>
+        <li>Priority Support</li>
+      </ul>
+      <div class="choose-plan-btn">
+        <button>CHOOSE PLAN</button>
+      </div>
+    </article>
+  </div>
+  <section class="key-features">
+    <h1 class="section-title">Many Good Reasons to Stick Around</h1>
+    <ul class="reason-items">
+      <li class="reason-item">
+        <div class="reason-img">
+
+        </div>
+        <p class="reason-text">3,857,000 Trusting Customers</p>
+      </li>
+      <li class="reason-item">
+        <div class="reason-img">
+
+        </div>
+        <p class="reason-text">99.999% Uptime Guarantee</p>
+      </li>
+      <li class="reason-item">
+        <div class="reason-img">
+
+        </div>
+        <p class="reason-text">Lightning Fast CDN</p>
+      </li>
+    </ul>
+  </section>
+</main>
+{% endblock %}
+

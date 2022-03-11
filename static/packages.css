@@ -1,0 +1,41 @@
+body {
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.plans {
+  padding-top: 60px;
+}
+
+.plan {
+  background-color: rgb(50, 50, 50);
+  width: 80%;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 30px;
+  margin-left: 5px;
+}
+
+.plan-heading {
+  font-size: 2rem;
+  color: rgb(150, 205, 100);
+}
+
+.plan__h2 {
+  background-color: rgb(50, 200, 170);
+  color: White;
+  border: 2px solid Gray;
+  display: inline-block;
+}
+
+.plan-text {
+  color: White;
+}
+
+.free {
+  float: right;
+  margin-right: 5px;
+}
+
+.clearfix {
+  clear: both;
+}

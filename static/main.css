@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+}
+
+#product-overview {
+  border:2px solid black;
+  background-image: url("freedom.jpg");
+  background-size: 100%;
+  background-color: pink;
+  font-size: 2rem;
+  height: 700px;
+}
+
+.main-section__heading {
+  text-align: center;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(0, 200, 100);
+  font-size: 2rem;
+}
+
+.plans {
+  text-align: center;
+}
+
+.plan {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: greenyellow;
+  text-align: center;
+  border-radius: 15px;
+  width: 30%;
+}
+
+.plan ul {
+  list-style: none;
+}
+
+.recommended-plan {
+  background-color: rgb(255, 50, 100);
+}
+
+.choose-plan-btn > button {
+  background-color: Purple;
+  color: Yellow;
+  font-size: 1.5rem;
+  padding: 20px 20px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.key-features{
+  border: 0.5px solid Red;
+  text-align: center;
+  margin: 100px auto;
+  margin-bottom: 0;
+  background-color: rgb(100, 0, 0);
+}
+
+.reason-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: rgb(150, 100, 255);
+  margin: auto;
+}
+
+.reason-item {
+  display: inline-block;
+  vertical-align: top;
+  color: White;
+  font-size: 20px;
+  text-align: center;
+  width: 30%;
+  font-size: 1.5pem;
+}
+
