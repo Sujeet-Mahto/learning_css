@@ -1,41 +1,66 @@
 body {
-  border: 1px solid rgba(0, 0, 0, 1);
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image {
+    background: url("plans-background.jpg");
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
 }
 
 .plans {
-  padding-top: 60px;
+    padding-top: 60px;
 }
 
 .plan {
-  background-color: rgb(50, 50, 50);
-  width: 80%;
-  border-radius: 15px;
-  padding: 10px;
-  margin: 30px;
-  margin-left: 5px;
+    position: inherit;
+    background-color: rgba(50, 50, 50, 0.7);
+    width: 80%;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 30px;
+    margin-left: 5px;
+}
+
+.recommended-badge {
+    position: absolute;
+    right: 20%;
+    color: White;
+    background-color: Red;
+    padding: 6px;
+    border-radius:4px;
 }
 
 .plan-heading {
-  font-size: 2rem;
-  color: rgb(150, 205, 100);
+    font-size: 2rem;
+    color: rgb(150, 205, 100);
 }
 
-.plan__h2 {
-  background-color: rgb(50, 200, 170);
-  color: White;
-  border: 2px solid Gray;
-  display: inline-block;
+.plan__h3 {
+    background-color: rgb(50, 200, 170);
+    color: White;
+    border: 2px solid Gray;
+    display: inline-block;
 }
 
 .plan-text {
-  color: White;
+    color: White;
 }
 
 .free {
-  float: right;
-  margin-right: 5px;
+    float: right;
+    margin-right: 5px;
 }
 
 .clearfix {
-  clear: both;
+    clear: both;
 }
+
+/* * { */
+/*     margin: 0; */
+/*     padding: 0; */
+/* } */

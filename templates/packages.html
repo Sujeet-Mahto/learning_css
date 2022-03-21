@@ -1,13 +1,15 @@
 {% extends "base.html" %}
 
 {% block head %}
-<link rel="stylesheet" href="{{ url_for('static', filename='packages.css') }}">
+<link rel="stylesheet" href="static/packages.css">
 {% endblock %}
 
 {% block content %}
+<div class="bg-image"></div>
 <div class="plans">
   <section class="plan">
     <a href="#">
+      <h2 class="recommended-badge">RECOMMENDED</h2>
       <h1 class="plan-heading">Our PLUS Plan</h1>
       <h2 class="plan__h2">The most popular choice of our customers.</h2>
       <p class="plan-text">Benefit from increased storage and faster support to ensure that your mission-critical data and applications
